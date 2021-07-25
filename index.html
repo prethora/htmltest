@@ -1,0 +1,24 @@
+<link href="https://unpkg.com/video.js@6.4.0/dist/video-js.css" rel="stylesheet">
+<script src="https://unpkg.com/video.js@6.4.0/dist/video.js"></script>
+<script src="https://unpkg.com/videojs-flash@2.0.1/dist/videojs-flash.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls@5.12.2/dist/videojs-contrib-hls.js"></script>
+
+<video id=example-video width=600 height=300 class="video-js vjs-default-skin" controls>
+  <source src="http://87.120.36.62:8080/hls/streama168375/index.m3u8?cst=f61d1b6f6fdca491cc256d002e4fc77f" type="application/x-mpegURL">
+</video>
+<script>
+var overrideNative = false;
+
+var player = videojs('example-video', {
+	html5: {
+    hls: {
+      overrideNative: overrideNative
+    },
+    nativeVideoTracks: !overrideNative,
+    nativeAudioTracks: !overrideNative,
+    nativeTextTracks: !overrideNative
+  }
+});
+player.play();
+</script>
+
