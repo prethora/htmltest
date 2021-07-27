@@ -1,0 +1,15 @@
+--2021-07-27 09:52:22--  https://eplayer.to/secure5/index6.php?nimblesessionid=1785502
+Resolving eplayer.to (eplayer.to)... 185.221.202.128
+Connecting to eplayer.to (eplayer.to)|185.221.202.128|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://eplayer.to [following]
+--2021-07-27 09:52:23--  https://eplayer.to/
+Reusing existing connection to eplayer.to:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index6.php?nimblesessionid=1785502’
+
+index6.php?nimblesessionid=1785502             [<=>                                                                                    ]       0  --.-KB/s               index6.php?nimblesessionid=1785502             [ <=>                                                                                   ]  23.77K  69.2KB/s               index6.php?nimblesessionid=1785502             [  <=>                                                                                  ]  31.99K  92.9KB/s    in 0.3s    
+
+2021-07-27 09:52:24 (92.9 KB/s) - ‘index6.php?nimblesessionid=1785502’ saved [32755]
+

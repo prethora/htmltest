@@ -4,16 +4,16 @@
 <script src="https://unpkg.com/videojs-contrib-hls@5.12.2/dist/videojs-contrib-hls.js"></script>
 
 <video id=example-video width=600 height=300 class="video-js vjs-default-skin" controls>
-  <source src="http://45.11.57.42:8081/live/court4.m3u8?e=1627281462&st=mrLmnBveLe5kCtRedHkFBQ" type="application/x-mpegURL">
+  <source src="https://corsastream.herokuapp.com/z/live/29/chunks.m3u8?nimblesessionid=3085878&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNy8yMDIxIDg6MTU6NDkgUE0maGFzaF92YWx1ZT01RVBXMEtpQWUzbWpVcTdmNHU3OHFnPT0mdmFsaWRtaW51dGVzPTEyMA==" type="application/x-mpegURL">
 </video>
 <script>
 var overrideNative = false;
 
 var player = videojs('example-video', {
 	html5: {
-    hls: {
-      overrideNative: overrideNative
-    },
+//    hls: {
+//      overrideNative: overrideNative
+//    },
     nativeVideoTracks: !overrideNative,
     nativeAudioTracks: !overrideNative,
     nativeTextTracks: !overrideNative
